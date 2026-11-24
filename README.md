@@ -1,6 +1,6 @@
 # Explainable AI (SHAP) for Land-Clearing Detection in the Merauke PSN Area (T13)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.ANGKA.svg)](https://doi.org/10.5281/zenodo.ANGKA)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24516890.svg)](https://doi.org/10.5281/zenodo.24516890)
 
 Code, data and results for the study *"Explainable AI for Land-Clearing Detection in the Merauke National Strategic Project, Indonesia: Importance, Agreement and Stability of SHAP Explanations"*.
 
