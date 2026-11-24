@@ -1,0 +1,8 @@
+k_features,feature,F1_CV,AUC,F1_transfer
+1,dNDVI_m,0.7265,0.8139,0.4497
+2,"dNDVI_m, dBSI",0.7385,0.8335,0.4233
+3,"dNDVI_m, dBSI, elev",0.7897,0.8845,0.6022
+5,"dNDVI_m, dBSI, elev, NDVI, dNBR",0.813,0.9143,0.6302
+8,8 teratas,0.8065,0.921,0.5791
+12,12 teratas,0.8065,0.9211,0.5716
+27,27 teratas,0.8052,0.9191,0.5771

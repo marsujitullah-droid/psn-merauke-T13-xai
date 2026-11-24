@@ -1,0 +1,9 @@
+block,measure,Spearman_rho,top5_overlap,top10_overlap
+G,SHAP Random Forest,0.735,4,7
+G,XGBoost gain,0.767,4,8
+G,XGBoost permutation,0.21,3,6
+G,|Logistic coefficient|,0.465,3,6
+H,SHAP Random Forest,0.494,2,7
+H,XGBoost gain,0.634,2,8
+H,XGBoost permutation,0.346,4,6
+H,|Logistic coefficient|,0.399,3,6

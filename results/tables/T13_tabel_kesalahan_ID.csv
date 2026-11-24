@@ -1,0 +1,7 @@
+blok,kelas_asal,jenis,n,jumlah,persen
+G,Hutan stabil,Positif palsu,750,112,14.93
+G,Lahan terbuka stabil,Positif palsu,750,31,4.13
+G,Dibuka,Negatif palsu,1500,390,26.0
+H,Hutan stabil,Positif palsu,750,177,23.6
+H,Lahan terbuka stabil,Positif palsu,750,11,1.47
+H,Dibuka,Negatif palsu,1500,339,22.6

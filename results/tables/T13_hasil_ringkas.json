@@ -1,0 +1,635 @@
+{
+  "blok": [
+    {
+      "peringkat": 1,
+      "lon": 140.546,
+      "lat": -8.2322,
+      "loss_2024_2025_ha": 7935.9,
+      "keterangan": "dipakai Blok A"
+    },
+    {
+      "peringkat": 2,
+      "lon": 140.7276,
+      "lat": -8.2324,
+      "loss_2024_2025_ha": 6960.6,
+      "keterangan": "dipakai Blok B"
+    },
+    {
+      "peringkat": 3,
+      "lon": 140.7279,
+      "lat": -7.8706,
+      "loss_2024_2025_ha": 4737.3,
+      "keterangan": "dipakai Blok C"
+    },
+    {
+      "peringkat": 4,
+      "lon": 139.2781,
+      "lat": -7.5055,
+      "loss_2024_2025_ha": 2743.7,
+      "keterangan": "dipakai Blok D"
+    },
+    {
+      "peringkat": 5,
+      "lon": 139.0969,
+      "lat": -7.5047,
+      "loss_2024_2025_ha": 935.6,
+      "keterangan": "dipakai Blok E"
+    },
+    {
+      "peringkat": 6,
+      "lon": 140.7285,
+      "lat": -6.7851,
+      "loss_2024_2025_ha": 721.4,
+      "keterangan": "dipakai Blok F"
+    },
+    {
+      "peringkat": 7,
+      "lon": 140.3641,
+      "lat": -8.4129,
+      "loss_2024_2025_ha": 435.8,
+      "keterangan": "Blok G (T13)"
+    },
+    {
+      "peringkat": 8,
+      "lon": 140.3644,
+      "lat": -8.232,
+      "loss_2024_2025_ha": 384.8,
+      "keterangan": "Blok H (T13)"
+    },
+    {
+      "peringkat": 9,
+      "lon": 139.6405,
+      "lat": -7.5067,
+      "loss_2024_2025_ha": 336.1,
+      "keterangan": ""
+    },
+    {
+      "peringkat": 10,
+      "lon": 139.4593,
+      "lat": -7.5061,
+      "loss_2024_2025_ha": 305.8,
+      "keterangan": ""
+    },
+    {
+      "peringkat": 11,
+      "lon": 140.5464,
+      "lat": -7.8704,
+      "loss_2024_2025_ha": 267.0,
+      "keterangan": ""
+    },
+    {
+      "peringkat": 12,
+      "lon": 138.1865,
+      "lat": -8.2226,
+      "loss_2024_2025_ha": 217.5,
+      "keterangan": ""
+    }
+  ],
+  "hansen_loss_ha": {
+    "G": 435.84139423624674,
+    "H": 384.76550683459703
+  },
+  "n_sampel": {
+    "G_1": 1500,
+    "G_2": 750,
+    "G_3": 750,
+    "H_1": 1500,
+    "H_2": 750,
+    "H_3": 750
+  },
+  "akurasi": [
+    {
+      "blok": "G",
+      "model": "XGBoost",
+      "skema": "Spasial 5 lipatan",
+      "presisi": 0.8859,
+      "recall": 0.74,
+      "F1": 0.8064,
+      "OA": 0.8223,
+      "kappa": 0.6447,
+      "AUC": 0.9163
+    },
+    {
+      "blok": "G",
+      "model": "Random Forest",
+      "skema": "Spasial 5 lipatan",
+      "presisi": 0.8866,
+      "recall": 0.7507,
+      "F1": 0.813,
+      "OA": 0.8273,
+      "kappa": 0.6547,
+      "AUC": 0.9158
+    },
+    {
+      "blok": "G",
+      "model": "Regresi logistik",
+      "skema": "Spasial 5 lipatan",
+      "presisi": 0.8591,
+      "recall": 0.8087,
+      "F1": 0.8331,
+      "OA": 0.838,
+      "kappa": 0.676,
+      "AUC": 0.9125
+    },
+    {
+      "blok": "H",
+      "model": "XGBoost",
+      "skema": "Spasial 5 lipatan",
+      "presisi": 0.8606,
+      "recall": 0.774,
+      "F1": 0.815,
+      "OA": 0.8243,
+      "kappa": 0.6487,
+      "AUC": 0.9193
+    },
+    {
+      "blok": "H",
+      "model": "Random Forest",
+      "skema": "Spasial 5 lipatan",
+      "presisi": 0.8313,
+      "recall": 0.7553,
+      "F1": 0.7915,
+      "OA": 0.801,
+      "kappa": 0.602,
+      "AUC": 0.904
+    },
+    {
+      "blok": "H",
+      "model": "Regresi logistik",
+      "skema": "Spasial 5 lipatan",
+      "presisi": 0.849,
+      "recall": 0.832,
+      "F1": 0.8404,
+      "OA": 0.842,
+      "kappa": 0.684,
+      "AUC": 0.9296
+    },
+    {
+      "blok": "G→H",
+      "model": "XGBoost",
+      "skema": "Transfer",
+      "presisi": 0.8379,
+      "recall": 0.4447,
+      "F1": 0.581,
+      "OA": 0.6793,
+      "kappa": 0.3587,
+      "AUC": 0.8652
+    },
+    {
+      "blok": "G→H",
+      "model": "Random Forest",
+      "skema": "Transfer",
+      "presisi": 0.8501,
+      "recall": 0.45,
+      "F1": 0.5885,
+      "OA": 0.6853,
+      "kappa": 0.3707,
+      "AUC": 0.869
+    },
+    {
+      "blok": "G→H",
+      "model": "Regresi logistik",
+      "skema": "Transfer",
+      "presisi": 0.8255,
+      "recall": 0.6433,
+      "F1": 0.7231,
+      "OA": 0.7537,
+      "kappa": 0.5073,
+      "AUC": 0.8838
+    },
+    {
+      "blok": "H→G",
+      "model": "XGBoost",
+      "skema": "Transfer",
+      "presisi": 0.8915,
+      "recall": 0.7067,
+      "F1": 0.7884,
+      "OA": 0.8103,
+      "kappa": 0.6207,
+      "AUC": 0.8946
+    },
+    {
+      "blok": "H→G",
+      "model": "Random Forest",
+      "skema": "Transfer",
+      "presisi": 0.8733,
+      "recall": 0.7307,
+      "F1": 0.7956,
+      "OA": 0.8123,
+      "kappa": 0.6247,
+      "AUC": 0.9049
+    },
+    {
+      "blok": "H→G",
+      "model": "Regresi logistik",
+      "skema": "Transfer",
+      "presisi": 0.8697,
+      "recall": 0.7253,
+      "F1": 0.791,
+      "OA": 0.8083,
+      "kappa": 0.6167,
+      "AUC": 0.897
+    }
+  ],
+  "kepentingan_top10": [
+    {
+      "blok": "G",
+      "peringkat": 1,
+      "fitur": "dNDVI_m",
+      "kelompok": "Tekstur",
+      "SHAP_rata2_abs": 0.95686
+    },
+    {
+      "blok": "G",
+      "peringkat": 2,
+      "fitur": "dBSI",
+      "kelompok": "Optik perubahan",
+      "SHAP_rata2_abs": 0.88801
+    },
+    {
+      "blok": "G",
+      "peringkat": 3,
+      "fitur": "elev",
+      "kelompok": "Topografi",
+      "SHAP_rata2_abs": 0.73494
+    },
+    {
+      "blok": "G",
+      "peringkat": 4,
+      "fitur": "NDVI",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.54396
+    },
+    {
+      "blok": "G",
+      "peringkat": 5,
+      "fitur": "dNBR",
+      "kelompok": "Optik perubahan",
+      "SHAP_rata2_abs": 0.46103
+    },
+    {
+      "blok": "G",
+      "peringkat": 6,
+      "fitur": "slope",
+      "kelompok": "Topografi",
+      "SHAP_rata2_abs": 0.37719
+    },
+    {
+      "blok": "G",
+      "peringkat": 7,
+      "fitur": "B4",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.27761
+    },
+    {
+      "blok": "G",
+      "peringkat": 8,
+      "fitur": "B12",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.26736
+    },
+    {
+      "blok": "G",
+      "peringkat": 9,
+      "fitur": "NBR",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.24061
+    },
+    {
+      "blok": "G",
+      "peringkat": 10,
+      "fitur": "dMNDWI",
+      "kelompok": "Optik perubahan",
+      "SHAP_rata2_abs": 0.22513
+    },
+    {
+      "blok": "H",
+      "peringkat": 1,
+      "fitur": "elev",
+      "kelompok": "Topografi",
+      "SHAP_rata2_abs": 2.22029
+    },
+    {
+      "blok": "H",
+      "peringkat": 2,
+      "fitur": "B2",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.68933
+    },
+    {
+      "blok": "H",
+      "peringkat": 3,
+      "fitur": "dNDVI_m",
+      "kelompok": "Tekstur",
+      "SHAP_rata2_abs": 0.60692
+    },
+    {
+      "blok": "H",
+      "peringkat": 4,
+      "fitur": "NDVI",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.40276
+    },
+    {
+      "blok": "H",
+      "peringkat": 5,
+      "fitur": "VH_sd",
+      "kelompok": "Radar kondisi",
+      "SHAP_rata2_abs": 0.33415
+    },
+    {
+      "blok": "H",
+      "peringkat": 6,
+      "fitur": "slope",
+      "kelompok": "Topografi",
+      "SHAP_rata2_abs": 0.28161
+    },
+    {
+      "blok": "H",
+      "peringkat": 7,
+      "fitur": "dBSI",
+      "kelompok": "Optik perubahan",
+      "SHAP_rata2_abs": 0.20039
+    },
+    {
+      "blok": "H",
+      "peringkat": 8,
+      "fitur": "B11",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.19642
+    },
+    {
+      "blok": "H",
+      "peringkat": 9,
+      "fitur": "dVV",
+      "kelompok": "Radar perubahan",
+      "SHAP_rata2_abs": 0.19181
+    },
+    {
+      "blok": "H",
+      "peringkat": 10,
+      "fitur": "MNDWI",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 0.18931
+    }
+  ],
+  "kelompok": [
+    {
+      "blok": "G",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 2.392,
+      "persen_SHAP": 32.255001068115234
+    },
+    {
+      "blok": "G",
+      "kelompok": "Optik perubahan",
+      "SHAP_rata2_abs": 1.868,
+      "persen_SHAP": 25.19499969482422
+    },
+    {
+      "blok": "G",
+      "kelompok": "Tekstur",
+      "SHAP_rata2_abs": 1.257,
+      "persen_SHAP": 16.951000213623047
+    },
+    {
+      "blok": "G",
+      "kelompok": "Topografi",
+      "SHAP_rata2_abs": 1.112,
+      "persen_SHAP": 15.0
+    },
+    {
+      "blok": "G",
+      "kelompok": "Radar kondisi",
+      "SHAP_rata2_abs": 0.426,
+      "persen_SHAP": 5.742000102996826
+    },
+    {
+      "blok": "G",
+      "kelompok": "Radar perubahan",
+      "SHAP_rata2_abs": 0.36,
+      "persen_SHAP": 4.857999801635742
+    },
+    {
+      "blok": "H",
+      "kelompok": "Topografi",
+      "SHAP_rata2_abs": 2.502,
+      "persen_SHAP": 34.013999938964844
+    },
+    {
+      "blok": "H",
+      "kelompok": "Optik kondisi",
+      "SHAP_rata2_abs": 2.308,
+      "persen_SHAP": 31.374000549316406
+    },
+    {
+      "blok": "H",
+      "kelompok": "Tekstur",
+      "SHAP_rata2_abs": 0.809,
+      "persen_SHAP": 10.994999885559082
+    },
+    {
+      "blok": "H",
+      "kelompok": "Optik perubahan",
+      "SHAP_rata2_abs": 0.72,
+      "persen_SHAP": 9.791999816894531
+    },
+    {
+      "blok": "H",
+      "kelompok": "Radar kondisi",
+      "SHAP_rata2_abs": 0.679,
+      "persen_SHAP": 9.236000061035156
+    },
+    {
+      "blok": "H",
+      "kelompok": "Radar perubahan",
+      "SHAP_rata2_abs": 0.338,
+      "persen_SHAP": 4.590000152587891
+    }
+  ],
+  "kesepakatan": [
+    {
+      "blok": "G",
+      "ukuran": "SHAP Random Forest",
+      "rho_Spearman": 0.735,
+      "irisan_top5": 4,
+      "irisan_top10": 7
+    },
+    {
+      "blok": "G",
+      "ukuran": "Gain XGBoost",
+      "rho_Spearman": 0.767,
+      "irisan_top5": 4,
+      "irisan_top10": 8
+    },
+    {
+      "blok": "G",
+      "ukuran": "Permutasi XGBoost",
+      "rho_Spearman": 0.21,
+      "irisan_top5": 3,
+      "irisan_top10": 6
+    },
+    {
+      "blok": "G",
+      "ukuran": "|Koefisien| logistik",
+      "rho_Spearman": 0.465,
+      "irisan_top5": 3,
+      "irisan_top10": 6
+    },
+    {
+      "blok": "H",
+      "ukuran": "SHAP Random Forest",
+      "rho_Spearman": 0.494,
+      "irisan_top5": 2,
+      "irisan_top10": 7
+    },
+    {
+      "blok": "H",
+      "ukuran": "Gain XGBoost",
+      "rho_Spearman": 0.634,
+      "irisan_top5": 2,
+      "irisan_top10": 8
+    },
+    {
+      "blok": "H",
+      "ukuran": "Permutasi XGBoost",
+      "rho_Spearman": 0.346,
+      "irisan_top5": 4,
+      "irisan_top10": 6
+    },
+    {
+      "blok": "H",
+      "ukuran": "|Koefisien| logistik",
+      "rho_Spearman": 0.399,
+      "irisan_top5": 3,
+      "irisan_top10": 6
+    }
+  ],
+  "stabilitas": [
+    {
+      "blok": "G",
+      "jenis": "Antar-lipatan",
+      "W_Kendall": 0.79,
+      "rho_Spearman": NaN,
+      "irisan_top5": NaN,
+      "irisan_top10": NaN
+    },
+    {
+      "blok": "H",
+      "jenis": "Antar-lipatan",
+      "W_Kendall": 0.844,
+      "rho_Spearman": NaN,
+      "irisan_top5": NaN,
+      "irisan_top10": NaN
+    },
+    {
+      "blok": "G vs H",
+      "jenis": "Antar-blok (G vs H)",
+      "W_Kendall": NaN,
+      "rho_Spearman": 0.448,
+      "irisan_top5": 3.0,
+      "irisan_top10": 5.0
+    }
+  ],
+  "model_ringkas": [
+    {
+      "k_fitur": 1,
+      "fitur": "dNDVI_m",
+      "F1_CV": 0.7265,
+      "AUC": 0.8139,
+      "F1_transfer": 0.4497
+    },
+    {
+      "k_fitur": 2,
+      "fitur": "dNDVI_m, dBSI",
+      "F1_CV": 0.7385,
+      "AUC": 0.8335,
+      "F1_transfer": 0.4233
+    },
+    {
+      "k_fitur": 3,
+      "fitur": "dNDVI_m, dBSI, elev",
+      "F1_CV": 0.7897,
+      "AUC": 0.8845,
+      "F1_transfer": 0.6022
+    },
+    {
+      "k_fitur": 5,
+      "fitur": "dNDVI_m, dBSI, elev, NDVI, dNBR",
+      "F1_CV": 0.813,
+      "AUC": 0.9143,
+      "F1_transfer": 0.6302
+    },
+    {
+      "k_fitur": 8,
+      "fitur": "8 teratas",
+      "F1_CV": 0.8065,
+      "AUC": 0.921,
+      "F1_transfer": 0.5791
+    },
+    {
+      "k_fitur": 12,
+      "fitur": "12 teratas",
+      "F1_CV": 0.8065,
+      "AUC": 0.9211,
+      "F1_transfer": 0.5716
+    },
+    {
+      "k_fitur": 27,
+      "fitur": "27 teratas",
+      "F1_CV": 0.8052,
+      "AUC": 0.9191,
+      "F1_transfer": 0.5771
+    }
+  ],
+  "kesalahan": [
+    {
+      "blok": "G",
+      "kelas_asal": "Hutan stabil",
+      "jenis": "Positif palsu",
+      "n": 750,
+      "jumlah": 112,
+      "persen": 14.93
+    },
+    {
+      "blok": "G",
+      "kelas_asal": "Lahan terbuka stabil",
+      "jenis": "Positif palsu",
+      "n": 750,
+      "jumlah": 31,
+      "persen": 4.13
+    },
+    {
+      "blok": "G",
+      "kelas_asal": "Dibuka",
+      "jenis": "Negatif palsu",
+      "n": 1500,
+      "jumlah": 390,
+      "persen": 26.0
+    },
+    {
+      "blok": "H",
+      "kelas_asal": "Hutan stabil",
+      "jenis": "Positif palsu",
+      "n": 750,
+      "jumlah": 177,
+      "persen": 23.6
+    },
+    {
+      "blok": "H",
+      "kelas_asal": "Lahan terbuka stabil",
+      "jenis": "Positif palsu",
+      "n": 750,
+      "jumlah": 11,
+      "persen": 1.47
+    },
+    {
+      "blok": "H",
+      "kelas_asal": "Dibuka",
+      "jenis": "Negatif palsu",
+      "n": 1500,
+      "jumlah": 339,
+      "persen": 22.6
+    }
+  ]
+}

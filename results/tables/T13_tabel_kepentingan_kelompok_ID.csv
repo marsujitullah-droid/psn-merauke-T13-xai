@@ -1,0 +1,13 @@
+blok,kelompok,SHAP_rata2_abs,persen_SHAP
+G,Optik kondisi,2.392,32.255
+G,Optik perubahan,1.868,25.195
+G,Tekstur,1.257,16.951
+G,Topografi,1.112,15.0
+G,Radar kondisi,0.426,5.742
+G,Radar perubahan,0.36,4.858
+H,Topografi,2.502,34.014
+H,Optik kondisi,2.308,31.374
+H,Tekstur,0.809,10.995
+H,Optik perubahan,0.72,9.792
+H,Radar kondisi,0.679,9.236
+H,Radar perubahan,0.338,4.59

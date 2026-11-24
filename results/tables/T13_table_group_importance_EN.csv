@@ -1,0 +1,13 @@
+block,group,mean_abs_SHAP,SHAP_share_pct
+G,Optical state,2.392,32.255
+G,Optical change,1.868,25.195
+G,Texture,1.257,16.951
+G,Terrain,1.112,15.0
+G,Radar state,0.426,5.742
+G,Radar change,0.36,4.858
+H,Terrain,2.502,34.014
+H,Optical state,2.308,31.374
+H,Texture,0.809,10.995
+H,Optical change,0.72,9.792
+H,Radar state,0.679,9.236
+H,Radar change,0.338,4.59

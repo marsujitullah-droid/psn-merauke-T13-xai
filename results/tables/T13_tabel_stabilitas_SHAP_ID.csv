@@ -1,0 +1,4 @@
+blok,jenis,W_Kendall,rho_Spearman,irisan_top5,irisan_top10
+G,Antar-lipatan,0.79,,,
+H,Antar-lipatan,0.844,,,
+G vs H,Antar-blok (G vs H),,0.448,3.0,5.0

@@ -1,0 +1,55 @@
+blok,peringkat,fitur,kelompok,SHAP_rata2_abs
+G,1,dNDVI_m,Tekstur,0.95686
+G,2,dBSI,Optik perubahan,0.88801
+G,3,elev,Topografi,0.73494
+G,4,NDVI,Optik kondisi,0.54396
+G,5,dNBR,Optik perubahan,0.46103
+G,6,slope,Topografi,0.37719
+G,7,B4,Optik kondisi,0.27761
+G,8,B12,Optik kondisi,0.26736
+G,9,NBR,Optik kondisi,0.24061
+G,10,dMNDWI,Optik perubahan,0.22513
+G,11,NDVI_sd,Tekstur,0.2009
+G,12,MNDWI,Optik kondisi,0.19516
+G,13,dVV,Radar perubahan,0.19046
+G,14,B11,Optik kondisi,0.17589
+G,15,dNDMI,Optik perubahan,0.17524
+G,16,B2,Optik kondisi,0.17317
+G,17,dVH,Radar perubahan,0.16972
+G,18,BSI,Optik kondisi,0.16159
+G,19,NDMI,Optik kondisi,0.14154
+G,20,dNDVI,Optik perubahan,0.11862
+G,21,VH_VV,Radar kondisi,0.1139
+G,22,B8,Optik kondisi,0.11259
+G,23,VH,Radar kondisi,0.11255
+G,24,B3,Optik kondisi,0.10209
+G,25,VH_sd,Radar kondisi,0.09993
+G,26,VV,Radar kondisi,0.09935
+G,27,NIR_sd,Tekstur,0.09903
+H,1,elev,Topografi,2.22029
+H,2,B2,Optik kondisi,0.68933
+H,3,dNDVI_m,Tekstur,0.60692
+H,4,NDVI,Optik kondisi,0.40276
+H,5,VH_sd,Radar kondisi,0.33415
+H,6,slope,Topografi,0.28161
+H,7,dBSI,Optik perubahan,0.20039
+H,8,B11,Optik kondisi,0.19642
+H,9,dVV,Radar perubahan,0.19181
+H,10,MNDWI,Optik kondisi,0.18931
+H,11,dMNDWI,Optik perubahan,0.17878
+H,12,B4,Optik kondisi,0.15427
+H,13,NIR_sd,Tekstur,0.14942
+H,14,dVH,Radar perubahan,0.14582
+H,15,dNDMI,Optik perubahan,0.14579
+H,16,B12,Optik kondisi,0.13529
+H,17,VH_VV,Radar kondisi,0.13336
+H,18,B8,Optik kondisi,0.13258
+H,19,dNBR,Optik perubahan,0.12673
+H,20,VV,Radar kondisi,0.11681
+H,21,B3,Optik kondisi,0.10522
+H,22,NDMI,Optik kondisi,0.10277
+H,23,BSI,Optik kondisi,0.10089
+H,24,NBR,Optik kondisi,0.09884
+H,25,VH,Radar kondisi,0.09501
+H,26,dNDVI,Optik perubahan,0.06854
+H,27,NDVI_sd,Tekstur,0.05237

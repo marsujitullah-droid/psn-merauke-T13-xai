@@ -1,0 +1,4 @@
+block,type,Kendall_W,Spearman_rho,top5_overlap,top10_overlap
+G,Across folds,0.79,,,
+H,Across folds,0.844,,,
+G vs H,Between blocks (G vs H),,0.448,3.0,5.0

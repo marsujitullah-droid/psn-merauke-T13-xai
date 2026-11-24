@@ -1,0 +1,7 @@
+block,source_class,type,n,count,percent
+G,Stable forest,False positive,750,112,14.93
+G,Stable open land,False positive,750,31,4.13
+G,Cleared,False negative,1500,390,26.0
+H,Stable forest,False positive,750,177,23.6
+H,Stable open land,False positive,750,11,1.47
+H,Cleared,False negative,1500,339,22.6

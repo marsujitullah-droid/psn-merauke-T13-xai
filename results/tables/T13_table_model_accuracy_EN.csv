@@ -1,0 +1,13 @@
+block,model,scheme,precision,recall,F1,OA,kappa,AUC
+G,XGBoost,Spatial 5-fold,0.8859,0.74,0.8064,0.8223,0.6447,0.9163
+G,Random Forest,Spatial 5-fold,0.8866,0.7507,0.813,0.8273,0.6547,0.9158
+G,Logistic regression,Spatial 5-fold,0.8591,0.8087,0.8331,0.838,0.676,0.9125
+H,XGBoost,Spatial 5-fold,0.8606,0.774,0.815,0.8243,0.6487,0.9193
+H,Random Forest,Spatial 5-fold,0.8313,0.7553,0.7915,0.801,0.602,0.904
+H,Logistic regression,Spatial 5-fold,0.849,0.832,0.8404,0.842,0.684,0.9296
+G→H,XGBoost,Transfer,0.8379,0.4447,0.581,0.6793,0.3587,0.8652
+G→H,Random Forest,Transfer,0.8501,0.45,0.5885,0.6853,0.3707,0.869
+G→H,Logistic regression,Transfer,0.8255,0.6433,0.7231,0.7537,0.5073,0.8838
+H→G,XGBoost,Transfer,0.8915,0.7067,0.7884,0.8103,0.6207,0.8946
+H→G,Random Forest,Transfer,0.8733,0.7307,0.7956,0.8123,0.6247,0.9049
+H→G,Logistic regression,Transfer,0.8697,0.7253,0.791,0.8083,0.6167,0.897

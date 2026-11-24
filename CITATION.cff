@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Explainable AI (SHAP) for land-clearing detection in the Merauke PSN area (T13): code and data"
+type: software
+authors:
+  - family-names: "Marsujitullah"
+    affiliation: "[INSTITUSI]"
+version: "1.0.0"
+license: MIT
+keywords:
+  - explainable AI
+  - SHAP
+  - XGBoost
+  - feature importance
+  - Sentinel-1
+  - Sentinel-2
+  - Merauke

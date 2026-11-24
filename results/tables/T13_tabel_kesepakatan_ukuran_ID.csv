@@ -1,0 +1,9 @@
+blok,ukuran,rho_Spearman,irisan_top5,irisan_top10
+G,SHAP Random Forest,0.735,4,7
+G,Gain XGBoost,0.767,4,8
+G,Permutasi XGBoost,0.21,3,6
+G,|Koefisien| logistik,0.465,3,6
+H,SHAP Random Forest,0.494,2,7
+H,Gain XGBoost,0.634,2,8
+H,Permutasi XGBoost,0.346,4,6
+H,|Koefisien| logistik,0.399,3,6
